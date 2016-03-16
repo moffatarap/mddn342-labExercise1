@@ -1,0 +1,14 @@
+/*Woo css*/
+
+body{
+	font-family: sans-serif;
+}
+
+@media all and (max-width: 800px) {
+	/*Woo a media query*/
+ 	body{
+ 		background-color: red;
+ 	}
+}
+
+
