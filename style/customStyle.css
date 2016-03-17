@@ -1,8 +1,6 @@
 /*CustomCSS*/
 
 /***+ MEDIA QUERY +***/
-@media screen and (min-width: 48em) {
-}
 
 body{
 	font-family: sans-serif;
@@ -21,19 +19,17 @@ h1 {
 	border: 2px solid green;
 }
 
-.pure-u-1-3 {
-border: 2px solid white;
-
-}
-
-.pure-u-1 {
-border: 2px solid white;
-
-}
-
-.pure-u-md-1-2 {
+.column {
 border: 1px solid orange;
-
+overflow:hidden;
 }
 
+.columns {
+border: 1px solid purple;
+overflow:hidden;
+}
 
+.imgScale {
+    width:100%;
+    height:auto;
+}
