@@ -1,14 +1,20 @@
-/*Woo css*/
+/*CustomCSS*/
 
 body{
 	font-family: sans-serif;
+	background-color:grey;
 }
 
-@media all and (max-width: 800px) {
-	/*Woo a media query*/
- 	body{
- 		background-color: red;
- 	}
+h1 {
+	font-size:70px;
+	color:white;
 }
+
+.mainBody{
+	margin:0 auto;
+	border: 2px solid green;
+}
+
+
 
 
