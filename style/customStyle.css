@@ -6,12 +6,18 @@ body{
 	font-family: sans-serif;
 	background-color:grey;
     margin: auto;
+
+}
+
+header {
+    border: 1px solid white;
+
 }
 
 h1 {
 	font-size:70px;
 	color:white;
-    margin: auto;
+    text-align: center;
 }
 
 .mainBody{
@@ -33,4 +39,14 @@ overflow:hidden;
 .imgScale {
     width:100%;
     height:auto;
+}
+
+#center {
+margin-left: 25%;
+}
+
+footer {
+border: 1px dotted orange;
+height:5%;
+width: auto;
 }
