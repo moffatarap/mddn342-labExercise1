@@ -17,6 +17,7 @@ h1 {
 .mainBody{
 	margin:0 auto;
 	border: 2px solid green;
+    padding:1%;
 }
 
 .column {
